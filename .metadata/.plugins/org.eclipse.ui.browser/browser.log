@@ -1,0 +1,66 @@
+
+9월 21, 2023 17:00:47.114 NEW SESSION
+9월 21, 2023 17:00:47.114 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 21, 2023 17:01:41.545 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 21, 2023 17:05:39.245 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 21, 2023 17:08:36.706 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 21, 2023 17:09:17.881 [8084:13192:0921/170917.881:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+9월 21, 2023 17:09:17.881 [8084:13192:0921/170917.881:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+9월 21, 2023 17:45:18.202 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 21, 2023 17:49:27.932 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 21, 2023 17:53:25.746 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 21, 2023 17:58:31.745 [9748:2684:0921/175831.745:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+9월 21, 2023 20:42:32.477 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 21, 2023 20:45:49.570 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 21, 2023 20:49:30.152 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 21, 2023 20:54:14.629 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 21, 2023 21:09:34.424 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 21, 2023 21:25:27.488 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 21, 2023 21:33:28.816 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 21, 2023 21:43:32.233 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+9월 22, 2023 15:34:44.980 NEW SESSION
+9월 22, 2023 15:34:44.980 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 22, 2023 17:06:49.427 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 22, 2023 17:19:06.159 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 22, 2023 17:36:30.62 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 22, 2023 17:37:20.607 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 22, 2023 17:55:59.248 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 22, 2023 20:26:05.291 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 22, 2023 20:42:44.819 [13672:4264:0922/204244.819:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+9월 25, 2023 15:46:32.478 NEW SESSION
+9월 25, 2023 15:46:32.479 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 25, 2023 16:11:12.07 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 25, 2023 16:14:10.381 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 25, 2023 16:24:31.834 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 25, 2023 16:25:30.112 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 25, 2023 17:09:19.149 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 25, 2023 17:44:46.81 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 25, 2023 17:47:24.610 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 25, 2023 17:55:30.66 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 25, 2023 19:30:03.798 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 25, 2023 19:33:29.692 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 25, 2023 19:36:51.205 [12644:7640:0925/193651.205:ERROR:device_event_log_impl.cc(225)] [19:36:51.205] Bluetooth: bluetooth_adapter_winrt.cc:1058 Getting Default Adapter failed.
+9월 25, 2023 19:37:48.591 [12644:7640:0925/193748.591:ERROR:device_event_log_impl.cc(225)] [19:37:48.591] Bluetooth: bluetooth_adapter_winrt.cc:1058 Getting Default Adapter failed.
+
+9월 26, 2023 15:47:39.508 NEW SESSION
+9월 26, 2023 15:47:39.508 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 26, 2023 15:51:06.249 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 26, 2023 15:52:33.914 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 26, 2023 15:55:06.967 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 26, 2023 16:04:36.288 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 26, 2023 16:05:48.912 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 26, 2023 16:06:48.85 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 26, 2023 16:07:54.603 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 26, 2023 16:55:01.146 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 26, 2023 17:04:27.833 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+9월 26, 2023 17:23:15.602 [4824:1212:0926/172315.602:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+9월 26, 2023 17:23:15.602 [4824:1212:0926/172315.602:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+9월 26, 2023 17:23:15.602 [4824:1212:0926/172315.602:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+9월 26, 2023 17:23:21.28 [4824:1212:0926/172321.028:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+9월 26, 2023 17:23:21.28 [4824:1212:0926/172321.028:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+9월 26, 2023 17:23:21.361 [4824:1212:0926/172321.361:ERROR:device_event_log_impl.cc(225)] [17:23:21.361] Bluetooth: bluetooth_adapter_winrt.cc:1058 Getting Default Adapter failed.
+9월 26, 2023 17:24:05.902 [4824:1212:0926/172405.902:ERROR:interface_endpoint_client.cc(702)] Message 5 rejected by interface blink.mojom.WidgetHost
+9월 26, 2023 17:24:55.738 [4824:1212:0926/172455.738:ERROR:device_event_log_impl.cc(225)] [17:24:55.738] Bluetooth: bluetooth_adapter_winrt.cc:1058 Getting Default Adapter failed.
+9월 26, 2023 19:37:38.448 [4824:1212:0926/193738.448:ERROR:device_event_log_impl.cc(225)] [19:37:38.448] Bluetooth: bluetooth_adapter_winrt.cc:1058 Getting Default Adapter failed.

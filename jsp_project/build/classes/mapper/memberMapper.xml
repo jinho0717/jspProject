@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="memberMapper">
+  <insert id="add" parameterType="mvo">
+  insert into projectmember(id, pwd, email, age)
+  value (#{id}, #{pwd}, #{email}, #{age})
+  </insert>
+  <select id="login" parameterType="mvo" resultType="mvo">
+  select * from projectmember where id = #{id} and pwd = #{pwd}
+  </select>
+  <update id="last" parameterType="string">
+  update projectmember set lastlogin = now() where id = #{id}
+  </update>
+  <select id="list" resultType="mvo">
+  select * from projectmember
+  </select>
+  <update id="update" parameterType="mvo">
+  update projectmember set pwd = #{pwd}, email = #{email}, age = #{age} where id = #{id}
+  </update>
+  <delete id="del" parameterType="string">
+  delete from projectmember where id = #{id}
+  </delete>
+  </mapper>

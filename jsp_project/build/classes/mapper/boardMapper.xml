@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="BoardMapper">
+  <insert id="add" parameterType="bvo">
+  insert into projectboard(title, writer, content, image_File)
+  values (#{title}, #{writer}, #{content}, #{image_File})
+  </insert>
+  <select id="list" resultType="bvo">
+  select * from projectboard
+  </select>
+  <select id="detail" parameterType="int" resultType="bvo">
+  select * from projectboard where bno = #{bno}
+  </select>
+  <update id="read" parameterType="int">
+   update projectboard set readcount = readcount+1 where bno = #{bno}
+  </update>
+  <update id="modify" parameterType="bvo">
+   update projectboard set title = #{title}, content=#{content}, moddate = now(),
+   image_File=#{image_File}  where bno = #{bno}
+  </update>
+  <select id="fileName" parameterType="int" resultType="string">
+  select image_File from projectboard where bno = #{bno}
+  </select>
+  <delete id="del" parameterType="int">
+  delete from projectboard where bno = #{bno}
+  </delete>
+  <select id="cnt" parameterType="pgvo" resultType="int">
+  select count(bno) from projectboard <include refid="search"></include>
+  </select>
+  <select id="page" parameterType="pgvo" resultType="bvo">
+  select * from projectboard 
+  <include refid="search"></include>
+  order by bno desc
+  limit #{pageStart}, #{qty}
+  </select>
+  <select id="mylist" parameterType="string" resultType="bvo">
+  select * from projectboard where writer = #{writer}
+  </select>
+  
+  
+  <sql id="search">
+  	<if test="type != null">
+  		<trim prefix="where (" suffix=")" prefixOverrides="OR">
+  			<foreach collection="typeToArray" item="type">
+  				<trim prefix="OR">
+  					<choose>
+  						<when test="type == 't'.toString()">
+  							title like concat('%',#{keyword},'%')
+  						</when>
+  						<when test="type == 'c'.toString()">
+  							content like concat('%',#{keyword},'%')
+  						</when>
+  						<when test="type == 'w'.toString()">
+  							writer like concat('%',#{keyword},'%')
+  						</when>
+  					</choose>
+  				</trim>
+  			</foreach>
+  		</trim>
+  	</if>
+  </sql>
+  </mapper>

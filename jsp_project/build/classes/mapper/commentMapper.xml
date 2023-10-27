@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="CommentMapper">
+  <insert id="add" parameterType="cvo">
+  insert into projectcomment (bno, writer, content)
+  values(#{bno}, #{writer}, #{content})
+  </insert>
+  <select id="list" parameterType="int" resultType="cvo">
+  select * from projectcomment where bno = #{bno}
+  </select>
+  <update id="update" parameterType="cvo">
+  update projectcomment set content = #{content} where cno = #{cno}
+  </update>
+  <delete id="delete" parameterType="int">
+  delete from projectcomment where cno = #{cno}
+  </delete>
+  <delete id="deleteAll" parameterType="int">
+  delete from projectcomment where bno = #{bno}
+  </delete>
+  <select id="cnt" parameterType="int" resultType="int">
+  select count(cno) from projectcomment where bno = #{bno}
+  </select>
+  </mapper>
